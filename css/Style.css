@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.topnav{background-color: #000000;
+color:#ffffff}
+
+.topnav a{color: #ffffff;
+text-decoration: none;
+font-size: 20px;
+margin-left: 70px;
+padding: 14px 16px;
+float:left;
+}
+
+.topnav a:hover
+{
+    Color:black;
+    background-color:white;
+
+}
+
+
+
+.header{background: linear-gradient(rgba(0,0,0,0.8),rgba(255,255,255,0,8)); 
+ background-image: url(https://www.culturalindia.net/iliimages/South%20Indian%20Food_1.jpg);
+background-repeat: no-repeat; background-size: cover; height: 100vh; color: #ffffff; font-size:70px; 
+padding:25px;text-align: left;
+
+}
+
+
+.header h1{text-transform: uppercase;
+padding: 18%;
+}
+
+.header p {color:black;}
+
+.row:after{
+    content:"";
+    display:table;
+    clear: both;
+}
+
+.column{
+    float:left;
+    width:50%;
+}
+
+#About {
+    padding:10%;
+}
+
+#About h4 {
+  font-family:fantasy;
+  font-size:50px;
+}
+ 
+#About img{ 
+    width:90%;border-radius: 20px; 
+}
+
+#About h5 {font-size:20px;}
+
+#About p {font-size:20px;}
+
+#Menu img{width:100%;height:200%; border-radius: 20px;}
+
+#Menu {padding:100px;
+margin:100px;}
+
+#Menu p {color:grey;font-size:15px;}
+
+#Menu h4 { 
+    font-size: 50px;
+    font-family:fantasy;
+}
+
+#Menu h5 {font-size:20px;
+font-family:fantasy;;padding:20px;}
+
+.sidenot {font-size:20px;background-color:crimson;color:white;border-radius:20px;padding:0; margin:10px; text-align:center;}
+
+#Contact {font-size:20px;padding:100px;}
+
+#Contact h4 {font-family:fantasy;font-size:40px;}
+
+#Contact p {font-size:20px;}
+
+
+
+input[type="text"],input[type="tel"],input[type="email"]
+ 
+{
+    font-size:10px;
+    width:50%;
+    height:20px;
+    margin:1%;
+    
+}
+
+form{ 
+    background: linear-gradient(grey,white); border-radius: 20px;
+}
